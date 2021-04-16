@@ -1,7 +1,7 @@
 img1_name = [str,SIQAD_name{cnt,1}];
 img2_name = [str,SIQAD_name{cnt,2}];
-imgA = imread(img1_name);
-imgB = imread(img2_name);
+imgA = imread(img1);
+imgB = imread(img2);
 img1 = double(rgb2gray(imgA));
 img2 = double(rgb2gray(imgB));
 str = 'D:\Maneesha\DATABASE\SIQAD\';
